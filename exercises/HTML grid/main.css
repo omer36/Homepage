@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    margin: 5rem;
+}
+
+main{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+grid-gap: 1rem;
+cursor: pointer;
+}
+main .item {
+background-color: #e5e7eb;
+width: 100%;
+}
+main .item img{
+	width: 100%;
+	height:35%;
+}
+
+main .item .info{
+	padding: 1rem;
+}
+main .item .desc {
+	color: gray;
+}
